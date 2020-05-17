@@ -218,7 +218,7 @@ body {
 .gradient-player,
 .gradient-score,
 .gradient-round {
-    border: 0.5vh solid #bcbec0;
+    border: 0.5vh solid #3c3836;
 }
 
 .gradient-player {
@@ -226,11 +226,11 @@ body {
 }
 
 .gradient-score {
-    background: #cc241d;
+    background: #3c3836;
 }
 
 .gradient-round {
-    background: #458588;
+    background: #3c3836;
 }
 
 .game-footer {
