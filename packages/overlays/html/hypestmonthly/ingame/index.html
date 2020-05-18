@@ -31,31 +31,36 @@
             </div>
 
             <div class="sidebar-contacts">
-                <span v-if="isFilled(scoreboard.streamer)"
+                <span v-if="isFilled(scoreboard.twitch)"
                     class="sidebar-contact">
                     <i class="fa fa-fw fa-twitch"></i>
-                    {{ scoreboard.streamer }}
+                    {{ scoreboard.twitch }}
                 </span>
 
-                <span class="sidebar-contact">
+                <span v-if="isFilled(scoreboard.twitter)"
+                    class="sidebar-contact">
                     <i class="fa fa-fw fa-twitter"></i>
-                    @Sample
+                    {{ scoreboard.twitter }}
                 </span>
 
-                <span class="sidebar-contact">
+                <span v-if="isFilled(scoreboard.facebook)"
+                    class="sidebar-contact">
                     <i class="fa fa-fw fa-facebook"></i>
-                    Sample
+                    {{ scoreboard.facebook }}
                 </span>
 
-                <span class="sidebar-contact">
+                <span v-if="isFilled(scoreboard.youtube)"
+                    class="sidebar-contact">
                     <i class="fa fa-fw fa-youtube"></i>
-                    Sample
+                    {{ scoreboard.youtube }}
                 </span>
 
-                <span class="sidebar-contact">
+                <span v-if="isFilled(scoreboard.reddit)"
+                    class="sidebar-contact">
                     <i class="fa fa-fw fa-reddit"></i>
-                    /r/sample
+                    {{ scoreboard.reddit }}
                 </span>
+
             </div>
 
             <div class="sidebar-box sidebar-logos">
