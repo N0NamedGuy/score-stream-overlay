@@ -1,6 +1,6 @@
 ![Node.js CI](https://github.com/N0NamedGuy/scoreman/workflows/Node.js%20CI/badge.svg?branch=master)
 
-# SexKick, Yet Another Melee Overlay
+# Scoreman
 Stream overlay software for Super Smash Brothers for use with OBS/Xsplit and the respective BrowserSource plugins.
 
 # Using
