@@ -171,7 +171,7 @@ body {
 
 .entrant-0 .entrant-score {
     margin-left: 1ch;
-    border-radius: 1vh 2vh 1vh 2vh;
+    border-radius: 1vh 2vh 1vh 2vh; 
 }
 
 .bordered-r,
@@ -218,19 +218,19 @@ body {
 .gradient-player,
 .gradient-score,
 .gradient-round {
-    border: 0.5vh solid #3c3836;
+    border: 0.5vh solid #928474;
 }
 
 .gradient-player {
-    background: #3c3836;
+    background: #7c6f64;
 }
 
 .gradient-score {
-    background: #3c3836;
+    background: #7c6f64;
 }
 
 .gradient-round {
-    background: #3c3836;
+    background: #7c6f64;
 }
 
 .game-footer {
