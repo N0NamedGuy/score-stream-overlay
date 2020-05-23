@@ -104,7 +104,7 @@ Create the following folders inside your overlay root:
 * ```commentary```
 * ```waiting```
 
-And inside each folder, place an ```index.html``` file that will display the appropriate overlay.
+Inside each folder, place an ```index.html``` file that will display the appropriate overlay and dont forget the ```css``` folder 
 
 *Voilà*, you have yourself your own overlay ready to go.
 
