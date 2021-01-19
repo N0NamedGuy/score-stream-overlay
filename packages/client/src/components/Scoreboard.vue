@@ -141,7 +141,8 @@ function getEmptyEntrant(entrant) {
 function getEmptyCommentator() {
     return {
         name: '',
-        handle: ''
+        handle: '',
+        enabled: true
     };
 }
 
