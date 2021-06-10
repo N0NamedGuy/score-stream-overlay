@@ -31,10 +31,10 @@
     global-agent "^2.0.2"
     global-tunnel-ng "^2.7.1"
 
-"@scoreman/client@^0.5.3":
-  version "0.5.3"
-  resolved "https://registry.yarnpkg.com/@scoreman/client/-/client-0.5.3.tgz#009684080cfedf02e98e8999519a00569b3307d6"
-  integrity sha512-rcQ0hej80Gh9KDYiXxv9xb7XHNEu44WR6qafXxuKmMTJYkRvN07pzwHFnzeq9OBecmlb3VWE52LD9cFph6H2jw==
+"@scoreman/client@^0.6.0":
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/@scoreman/client/-/client-0.6.0.tgz#44e1344fe5e90c174dca3f17dd60ce82017fb944"
+  integrity sha512-yuZOCZnzZDeV2pK83+e7KDIwj0BHn1AHHzv1rcAK9OWLxQ5DkztKdUhWR4PUM8eyhxsaPctHGgzgtW/3nUHEMg==
   dependencies:
     core-js "^3.6.4"
     vue "^2.6.11"
@@ -48,12 +48,12 @@
     font-awesome "^4.7.0"
     lodash "^4.17.15"
 
-"@scoreman/server@^0.5.3":
-  version "0.5.3"
-  resolved "https://registry.yarnpkg.com/@scoreman/server/-/server-0.5.3.tgz#33567052f55183eb3326299d77debcd4abb70f6c"
-  integrity sha512-fE/rhZcpQDucywvt1Z9AKDEXTjfPh7zk2CIIbA3P2IkGNbA6Wg2B8RsUIhm4o++dGRLeJpBgDIqilLOHKJz0uw==
+"@scoreman/server@^0.6.0":
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/@scoreman/server/-/server-0.6.0.tgz#0938dcee9a8c3dc21027faa10e091d2f926dafb9"
+  integrity sha512-QhVbcdAtQSWyqp+lSrsTIvslwen1nOIZcYVhOwfBav0z7frh0troS3MWhiDddR44wkqxfKPVgAThvQO4IbeMMw==
   dependencies:
-    "@scoreman/client" "^0.5.3"
+    "@scoreman/client" "^0.6.0"
     axios "^0.21.1"
     body-parser "^1.18.3"
     cors "^2.8.5"
@@ -993,9 +993,9 @@ has-yarn@^2.1.0:
   integrity sha512-UqBRqi4ju7T+TqGNdqAO0PaSVGsDGJUBQvk9eUWNGRY1CFGDzYhLWoM7JQEemnlvVcv/YEmc2wNW8BC24EnUsw==
 
 hosted-git-info@^2.1.4:
-  version "2.8.8"
-  resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-2.8.8.tgz#7539bd4bc1e0e0a895815a2e0262420b12858488"
-  integrity sha512-f/wzC2QaWBs7t9IYqB4T3sR1xviIViXJRJTWBlx2Gf3g0Xi5vI7Yy4koXQ1c9OYDGHN9sBy1DQ2AB8fqZBWhUg==
+  version "2.8.9"
+  resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-2.8.9.tgz#dffc0bf9a21c02209090f2aa69429e1414daf3f9"
+  integrity sha512-mxIDAb9Lsm6DoOJ7xH+5+X4y1LU/4Hi50L9C5sIswK3JzULS4bwk1FvjdBgvYR4bzT4tuUQiC15FE2f5HbLvYw==
 
 hosted-git-info@^3.0.5:
   version "3.0.8"
