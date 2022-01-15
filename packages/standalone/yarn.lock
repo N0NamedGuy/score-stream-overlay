@@ -31,10 +31,10 @@
     global-agent "^2.0.2"
     global-tunnel-ng "^2.7.1"
 
-"@scoreman/client@^0.6.0":
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/@scoreman/client/-/client-0.6.0.tgz#44e1344fe5e90c174dca3f17dd60ce82017fb944"
-  integrity sha512-yuZOCZnzZDeV2pK83+e7KDIwj0BHn1AHHzv1rcAK9OWLxQ5DkztKdUhWR4PUM8eyhxsaPctHGgzgtW/3nUHEMg==
+"@scoreman/client@^0.6.2":
+  version "0.6.2"
+  resolved "https://registry.yarnpkg.com/@scoreman/client/-/client-0.6.2.tgz#4ee77c8740eb9073935a68a1334a4eba2c695bce"
+  integrity sha512-+cn7UjnkuHM+JDdkK99vF7z3gO2TE0NPalRxnQ/S+hgUAQwzCCBf8DlgUUsQ2T4Fio3gGS8bCQrlyVnK3P2pYQ==
   dependencies:
     core-js "^3.6.4"
     vue "^2.6.11"
@@ -48,12 +48,12 @@
     font-awesome "^4.7.0"
     lodash "^4.17.15"
 
-"@scoreman/server@^0.6.0":
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/@scoreman/server/-/server-0.6.0.tgz#0938dcee9a8c3dc21027faa10e091d2f926dafb9"
-  integrity sha512-QhVbcdAtQSWyqp+lSrsTIvslwen1nOIZcYVhOwfBav0z7frh0troS3MWhiDddR44wkqxfKPVgAThvQO4IbeMMw==
+"@scoreman/server@^0.6.2":
+  version "0.6.2"
+  resolved "https://registry.yarnpkg.com/@scoreman/server/-/server-0.6.2.tgz#16c9a10cc4027f9af996ba70140b4b1703dff815"
+  integrity sha512-jQBOXqsm5joaTwbzlKXPYEygR97WRdNx9hMAYbjxexB++CbMl9+mKwKohQ0ow/6zgS2+cJtRC1QbBA1tnPTzFg==
   dependencies:
-    "@scoreman/client" "^0.6.0"
+    "@scoreman/client" "^0.6.2"
     axios "^0.21.1"
     body-parser "^1.18.3"
     cors "^2.8.5"
@@ -861,9 +861,9 @@ finalhandler@~1.1.2:
     unpipe "~1.0.0"
 
 follow-redirects@^1.10.0:
-  version "1.13.2"
-  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.13.2.tgz#dd73c8effc12728ba5cf4259d760ea5fb83e3147"
-  integrity sha512-6mPTgLxYm3r6Bkkg0vNM0HTjfGrOEtsfbhagQvbxDEsEkpNhw582upBaoRZylzen6krEmxXJgt9Ju6HiI4O7BA==
+  version "1.14.7"
+  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.14.7.tgz#2004c02eb9436eee9a21446a6477debf17e81685"
+  integrity sha512-+hbxoLbFMbRKDwohX8GkTataGqO6Jb7jGwpAlwgy2bIz25XtRm7KEzJM76R1WiNT5SwZkX4Y75SwBolkpmE7iQ==
 
 font-awesome@^4.7.0:
   version "4.7.0"
@@ -992,7 +992,7 @@ has-yarn@^2.1.0:
   resolved "https://registry.yarnpkg.com/has-yarn/-/has-yarn-2.1.0.tgz#137e11354a7b5bf11aa5cb649cf0c6f3ff2b2e77"
   integrity sha512-UqBRqi4ju7T+TqGNdqAO0PaSVGsDGJUBQvk9eUWNGRY1CFGDzYhLWoM7JQEemnlvVcv/YEmc2wNW8BC24EnUsw==
 
-hosted-git-info@2.8.9, hosted-git-info@^2.1.4:
+hosted-git-info@^2.1.4:
   version "2.8.9"
   resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-2.8.9.tgz#dffc0bf9a21c02209090f2aa69429e1414daf3f9"
   integrity sha512-mxIDAb9Lsm6DoOJ7xH+5+X4y1LU/4Hi50L9C5sIswK3JzULS4bwk1FvjdBgvYR4bzT4tuUQiC15FE2f5HbLvYw==
