@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.6.3](https://github.com/N0NamedGuy/scoreman/compare/v0.6.2...v0.6.3) (2023-07-26)
+
+
+### Bug Fixes
+
+* :bug: fix font-awesome dependency ([f5246a6](https://github.com/N0NamedGuy/scoreman/commit/f5246a6e6f959abb6db54f8927745bbab40cad90))
+
+
+
+
+
 ## [0.6.2](https://github.com/N0NamedGuy/scoreman/compare/v0.6.1...v0.6.2) (2021-06-13)
 
 
