@@ -37,7 +37,7 @@
         "electron-builder": "^22.9.1"
     },
     "dependencies": {
-        "@scoreman/client": "^0.6.3",
+        "@scoreman/client": "^0.6.2",
         "@scoreman/overlays": "^0.0.13",
         "@scoreman/server": "^0.6.3",
         "electron-log": "^4.3.1",
