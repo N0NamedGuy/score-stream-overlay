@@ -38,7 +38,7 @@
     },
     "dependencies": {
         "@scoreman/client": "^0.6.2",
-        "@scoreman/overlays": "^0.0.13",
+        "scoreman-overlay-melee-dark": "^1.3.0",
         "@scoreman/server": "^0.6.2",
         "electron-log": "^4.3.1",
         "electron-updater": "^4.3.5"
