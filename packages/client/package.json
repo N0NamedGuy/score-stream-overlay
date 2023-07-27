@@ -27,17 +27,17 @@
   "devDependencies": {
     "@babel/core": "^7.12.16",
     "@babel/eslint-parser": "^7.12.16",
-    "axios": "^0.21.1",
+    "axios": "^1.4.0",
     "bootstrap": "^4.5.0",
-    "eslint": "^7.32.0",
-    "eslint-plugin-vue": "^8.0.3",
-    "flag-icon-css": "^3.4.6",
+    "eslint": "^8.45.0",
+    "eslint-plugin-vue": "^9.15.1",
+    "flag-icons": "^6.9.2",
     "font-awesome": "^4.7.0",
     "jquery": "^3.5.1",
     "lodash": "^4.17.21",
     "popper.js": "^1.16.1",
     "sass": "^1.26.3",
-    "sass-loader": "^8.0.2",
+    "sass-loader": "^13.3.2",
     "vue-template-compiler": "^2.6.11"
   }
 }

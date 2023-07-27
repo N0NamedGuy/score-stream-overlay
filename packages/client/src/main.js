@@ -9,7 +9,7 @@ axios.defaults.baseURL = location.pathname;
 
 import 'bootstrap/dist/css/bootstrap.css';
 import 'font-awesome/css/font-awesome.css';
-import 'flag-icon-css/css/flag-icon.css';
+import 'flag-icons/css/flag-icons.css';
 
 Vue.config.productionTip = false
 
