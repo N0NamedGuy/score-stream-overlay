@@ -3,6 +3,30 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.6.4](https://github.com/N0NamedGuy/scoreman/compare/v0.6.3...v0.6.4) (2023-07-27)
+
+
+### Bug Fixes
+
+* :bug: fix font-awesome dependency ([f5246a6](https://github.com/N0NamedGuy/scoreman/commit/f5246a6e6f959abb6db54f8927745bbab40cad90))
+* **ci:** :arrow_up: upgrade everything to latest and greatest ([9010ca1](https://github.com/N0NamedGuy/scoreman/commit/9010ca146e55641d694b305feef3671d283d3a49))
+* **ci:** :bug: fixed syntax for GITHUB_OUTPUT ([7c94bfa](https://github.com/N0NamedGuy/scoreman/commit/7c94bfafa624ae61e6b5636563ece1df114924c7))
+* **ci:** :wastebasket: used $GITHUB_STATE instead of ::save-state ([5c42177](https://github.com/N0NamedGuy/scoreman/commit/5c42177281c476bfab002b39e451768b5cebed7e))
+* **client:** :fire: remove unnecessary yarn.lock ([ed7c725](https://github.com/N0NamedGuy/scoreman/commit/ed7c725bda9975781d783b9a9b7329e52d949b51))
+
+
+### Performance Improvements
+
+* :fire: remove unnecessary stage ([4bddf86](https://github.com/N0NamedGuy/scoreman/commit/4bddf869c4976e7e650f7e56eedafc1c5c307eb0))
+
+
+
+## 0.6.2 (2021-06-13)
+
+
+
+
+
 ## [0.6.3](https://github.com/N0NamedGuy/scoreman/compare/v0.6.2...v0.6.3) (2023-07-26)
 
 

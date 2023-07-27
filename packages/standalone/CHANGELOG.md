@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.6.4](https://github.com/ScoremanOrg/scoreman/compare/v0.6.3...v0.6.4) (2023-07-27)
+
+
+### Bug Fixes
+
+* **ci:** :arrow_up: upgrade everything to latest and greatest ([9010ca1](https://github.com/ScoremanOrg/scoreman/commit/9010ca146e55641d694b305feef3671d283d3a49))
+
+
+
+
+
 ## [0.6.3](https://github.com/ScoremanOrg/scoreman/compare/v0.6.2...v0.6.3) (2023-07-26)
 
 
