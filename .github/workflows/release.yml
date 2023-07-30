@@ -102,6 +102,9 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-yarn-
 
+      - name: Yarn install
+        run: yarn install
+
       - name: Build and release Electron binary
         run: |
           npx electron-builder build --publish always
