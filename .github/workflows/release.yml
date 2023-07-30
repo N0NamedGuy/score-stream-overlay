@@ -25,17 +25,16 @@ jobs:
         run: git fetch --depth=1 origin +refs/tags/*:refs/tags/*
 
       - name: Use Node.js 18.x
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v1
         with:
           node-version: 18.x
-          cache: 'yarn'
 
       - name: Get yarn cache directory path
         id: yarn-cache-dir-path
         run: echo "dir=$(yarn cache dir)" >> $GITHUB_OUTPUT
 
       - name: Cache yarn modules
-        uses: actions/cache@v3
+        uses: actions/cache@v1
         id: yarn-cache # use this to check for `cache-hit` (`steps.yarn-cache.outputs.cache-hit != 'true'`)
         with:
           path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
@@ -66,7 +65,7 @@ jobs:
         run: npx lerna publish from-package --yes
 
       - name: Archive scoreman builds
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v2
         with:
           name: scoreman-build
           path: |
@@ -86,7 +85,7 @@ jobs:
 
     steps:
       - name: Download scoreman build
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v2
         with:
           name: scoreman-build
 
@@ -95,7 +94,7 @@ jobs:
         run: echo "::set-output name=dir::$(yarn cache dir)"
 
       - name: Cache yarn modules
-        uses: actions/cache@v3
+        uses: actions/cache@v1
         id: yarn-cache # use this to check for `cache-hit` (`steps.yarn-cache.outputs.cache-hit != 'true'`)
         with:
           path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
