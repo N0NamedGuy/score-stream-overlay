@@ -9,6 +9,7 @@ COPY packages/server/ ./packages/server
 COPY package.json ./
 COPY lerna.json ./
 COPY yarn.lock ./
+RUN yarn config set network-timeout 300000
 RUN yarn install --frozen-lockfile
 RUN yarn workspace @scoreman/client build
 
